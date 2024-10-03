@@ -1,1 +1,3 @@
 # Implementation-of-Neural-Network-from-scratch
+
+Designed and implemented a fully connected neural network from scratch to predict object velocities (X and Y) based on positional data. The network architecture included an input layer, a hidden layer, and an output layer, using the sigmoid activation function. The project involved training the network using backpropagation with momentum and regularization techniques, managing data preprocessing using MinMaxScaler, and evaluating model performance with loss tracking over epochs. The trained model was then deployed to make predictions on new data inputs, with real-time velocity predictions denormalized to their original scale.
