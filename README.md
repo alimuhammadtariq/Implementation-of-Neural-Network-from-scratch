@@ -18,6 +18,14 @@ git clone https://github.com/your-repo/neural-network.git
 cd neural-network
 pip install -r requirements.txt
 
+## Installation
+
+Clone the repository and install the required libraries:
+```bash
+git clone https://github.com/your-repo/neural-network.git
+cd neural-network
+pip install -r requirements.txt
+
 ## Usage
 
 ### Training the Neural Network
