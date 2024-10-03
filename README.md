@@ -13,7 +13,7 @@ This repository contains the code for a basic neural network implemented from sc
 
 
 ## Installation
-Clone the repository and install the required libraries:
+1. Clone the repository and install the required libraries:
       ```bash
       git clone https://github.com/your-repo/neural-network.git
       cd neural-network
