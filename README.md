@@ -13,14 +13,13 @@ This repository contains the code for a basic neural network implemented from sc
 ## Installation
 
 Clone the repository and install the required libraries:
+    ```bash
+    git clone https://github.com/your-repo/neural-network.git
+    cd neural-network
+    pip install -r requirements.txt
 
-  ```bash
-  git clone https://github.com/your-repo/neural-network.git
-  cd neural-network
-  pip install -r requirements.txt
-
-Usage
-Training the Neural Network
+## Usage
+### Training the Neural Network
 You can initialize and train the neural network using your dataset. The training data (X_train.csv) and labels (y_train.csv) must be in CSV format. Here's an example of how to train the neural network:
 from neural_network import NeuralNetwork
 import pandas as pd
@@ -30,6 +29,22 @@ X_train = pd.read_csv('x_train.csv').values
 y_train = pd.read_csv('y_train.csv').values
 
 # Initialize neural network
+input_size = X_train.shape[1]
+hidden_size = 5  # Adjust based on your problem
+output_size = 2  # Number of output classes
+eta = 0.001      # Learning rate
+
+nn = NeuralNetwork(input_size, hidden_size, output_size, eta)
+
+# Train the neural network
+nn.train(X_train, y_train, epochs=1000)
+
+
+## Load training data
+X_train = pd.read_csv('x_train.csv').values
+y_train = pd.read_csv('y_train.csv').values
+
+## Initialize neural network
 input_size = X_train.shape[1]
 hidden_size = 5  # Adjust based on your problem
 output_size = 2  # Number of output classes
