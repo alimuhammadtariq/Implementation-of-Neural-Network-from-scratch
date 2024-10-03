@@ -11,13 +11,12 @@ This repository contains the code for a basic neural network implemented from sc
 - Plotting of training and testing loss for performance analysis.
 
 ## Installation and Usage
-1. **Clone the repository**:
-   ```bash
-   git clone https://github.com/alimuhammadtariq/Reinforcement-learning-for-aerial-Navigation-.git
-   cd Reinforcement-learning-for-aerial-Navigation
-   pip install -r requirements.txt
-   cd "Reinforcement-learning-for-aerial-Navigation-/Quadcopter Hovering"
-   python "Quadcopter Hovering/PPO Predictions.py"
+      ```bash
+      git clone https://github.com/alimuhammadtariq/Reinforcement-learning-for-aerial-Navigation-.git
+      cd Reinforcement-learning-for-aerial-Navigation
+      pip install -r requirements.txt
+      cd "Reinforcement-learning-for-aerial-Navigation-/Quadcopter Hovering"
+      python "Quadcopter Hovering/PPO Predictions.py"
 
 
 
