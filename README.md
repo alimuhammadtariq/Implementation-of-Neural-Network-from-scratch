@@ -10,22 +10,14 @@ This repository contains the code for a basic neural network implemented from sc
 - Training and evaluation of neural networks on custom datasets.
 - Plotting of training and testing loss for performance analysis.
 
-## Installation and Usage
-      ```bash
-      git clone https://github.com/alimuhammadtariq/Reinforcement-learning-for-aerial-Navigation-.git
-      cd Reinforcement-learning-for-aerial-Navigation
-      pip install -r requirements.txt
-      cd "Reinforcement-learning-for-aerial-Navigation-/Quadcopter Hovering"
-      python "Quadcopter Hovering/PPO Predictions.py"
-
 
 
 ## Installation
 Clone the repository and install the required libraries:
-```bash
-git clone https://github.com/your-repo/neural-network.git
-cd neural-network
-pip install -r requirements.txt
+      ```bash
+      git clone https://github.com/your-repo/neural-network.git
+      cd neural-network
+      pip install -r requirements.txt
 
 ## Usage
 
@@ -53,5 +45,6 @@ You can initialize and train the neural network using your dataset. The training
 
 ## Predicting with the Trained Model
 After training, you can use the trained model to make predictions on new data:
+```bash
 X_test = pd.read_csv('x_test.csv').values
 predictions = nn.forward_pass(X_test)
